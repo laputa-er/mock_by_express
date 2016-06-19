@@ -1,0 +1,34 @@
+{
+	"errno":0,
+	"data":[
+		{
+			"id":1002,
+			"total_money":50,
+			"start_time":1437133584,
+			"full_time":0,
+			"is_for_me":0,
+			"hongbao_num":34,
+			"online_time": "1436839200",
+			"ws_nick_name":"苹果红包"
+		},
+		{
+			"id":0,
+			"total_money":50,
+			"start_time":1437131065,
+			"full_time":0,
+			"is_for_me":0,
+			"hongbao_num":34,
+			"online_time": "1436839200",
+			"ws_nick_name":"橘子红包"
+		},
+		{
+			"id":0,
+			"total_money":50,
+			"start_time":1437131065,
+			"full_time":0,
+			"is_for_me":0,
+			"hongbao_num":34,
+			"online_time": "1436839200"
+		}
+	]
+}

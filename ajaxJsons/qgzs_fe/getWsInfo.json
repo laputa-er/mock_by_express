@@ -1,0 +1,11 @@
+{
+	"errno": 0,
+	"errmsg": "获取成功",
+	"data":{
+		"weixin_id": "liluyao",
+		"weixin_name": "吧啦",
+		"desc": "开心每一天",
+		"wx_avatar_img": "http://assets0.qwbcg.mobi/qrcode/d7/a7/28/36402187_300.jpg",
+		"qr_code_img": "http://assets0.qwbcg.mobi/qrcode/00/ac/8e/36402955_300.jpg"
+	}
+}
