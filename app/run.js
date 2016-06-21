@@ -19,6 +19,23 @@ app.all('*', function(req, res, next) {
     next();
 });
 
+app.set('jsonp callback name', 'cb');
+app.all('/mock/dynamic', function (req, res) {
+	var json;
+	console.log(JSON.stringify(req.query));
+	if (req.query.type === 'bd-da-sou') {
+		json = require('../ajaxJsons/baidu/wanghong');
+	}
+	else if (req.query.type === 'bd-star') {
+		json = require('../ajaxJsons/baidu/star');
+	}
+	else {
+		json = {"error": 1};
+	}
+
+	res.jsonp(json);
+});
+
 /*路由设置*/
 app.get('/index.php/Mobile/Weijson/wxAudit', function(req, res){
 	res.json(require('../ajaxJsons/qgzs_fe/wsAudit'));
